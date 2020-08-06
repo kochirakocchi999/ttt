@@ -1,19 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<style>
-		h1{color:blue;}
-		h2{color:red;}
-		h3{color:blue;}
-	</style>
-</head>
-<body>
-	<h1>あああ</h1>
-	<h2>あああ</h2>
-	<h3>あああ</h3>
-	<div class="demo01">
-	<a href="#">サンプル</a>
-</div>
-</body>
-</html>
+.demo01 {
+    background: url("/img/btn_sample_out.png") no-repeat; /* ロールオーバー時のチラつき防止 */
+}
+ 
+.demo01 a {
+    width: 200px;
+    height: 60px;
+    background: url("/img/btn_sample_out.png") no-repeat;
+    display: block;
+    text-indent: -9999px;
+}
+ 
+.demo01 a:hover {
+    background-image: url("/img/btn_sample_over.png");
+}
